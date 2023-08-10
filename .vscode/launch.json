@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python: Main",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/python/.env",
+            "args": [
+            ],
+            "env": {  }
+        },
+        {
+            "name": "Test",
+            "type": "python",
+            "request": "launch",
+            "console": "internalConsole",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
